@@ -1,9 +1,7 @@
 /**
  * Welcome Intent
  */
-'use strict';
-
-const Intent = require('../../../../src/Intent/intent');
+const Intent = girequire('src/Intent/intent');
 
 module.exports = class WelcomeIntent extends Intent {
 
